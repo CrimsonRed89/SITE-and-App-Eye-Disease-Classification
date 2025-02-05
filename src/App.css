@@ -1,0 +1,101 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f7;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #eaeef2;
+  margin-bottom: 20px;
+}
+
+.form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.file-input {
+  display: block;
+  margin-top: 5px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+}
+
+.submit-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.success {
+  background-color: #eafaf1;
+  color: #27ae60;
+}
+
+.error {
+  background-color: #fae1e1;
+  color: #c0392b;
+}
+/* Add these styles to your App.css */
+
+.image-preview {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.preview-image {
+  max-width: 30%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://i.pinimg.com/736x/59/ab/8f/59ab8f8c8afd93a73aaf28639ff1018f.jpg'); /* Replace with the URL of your image */
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-position: center; /* Center the background image */
+}
